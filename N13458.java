@@ -3,6 +3,15 @@ package com.company.bakjoon;
 import java.io.*;
 import java.util.*;
 
+/**
+ * 2sec, 512MB
+ * 시험장 갯수 N, 응시자 수 Ai
+ * 총감독관 감시 인원 : B, 부감독관 감시 인원 :C
+ * (1<= N, Ai, B, C <= 1,000,000)
+ *
+ * 총감독관은 오직 1명 필수, 부감독관은 여러명 가능
+ */
+
 public class N13458 {
 
     static int N;
