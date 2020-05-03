@@ -3,13 +3,14 @@ package com.company.bakjoon;
 import java.io.*;
 import java.util.*;
 
+/**
+ * N+1 일째가 되는 날 퇴사 (1<= N <=15)
+ * Ti 상담 완료 하는데 걸리는 기간 (1<= T <=5)
+ * Pi 받을 수 있는 금액 (1<= P <= 1,000)
+ */
+
 public class N14501 {
 
-    /**
-     * N+1 일째가 되는 날 퇴사 (1<= N <=15)
-     * Ti 상담 완료 하는데 걸리는 기간 (1<= T <=5)
-     * Pi 받을 수 있는 금액 (1<= P <= 1,000)
-     */
     static int N, max;
     static int[] T, P, dp;
 
