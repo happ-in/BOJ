@@ -23,29 +23,42 @@ public class N14889 {
         N = parse(br.readLine());
         S = new int[N][N];
 
+        // 값 받아오기
         for(int i=0; i<N; i++){
             StringTokenizer st = new StringTokenizer(br.readLine());
             for(int j=0; j<N; j++){ S[i][j] = parse(st.nextToken()); }
         }
 
         team = new boolean[N];
+
+        combination(0, 0);
+
+        System.out.print(min);
     }
 
     static void combination(int idx, int cnt){
-        if(cnt == N/2){ cal(); }
-        for(int i=0; i<N; i++){
+        if(cnt == N/2){ cal(); return; }
+        for(int i=idx; i<N; i++){
             team[i] = true;
-            combination(idx+1, cnt+1);
+            combination(i+1, cnt+1);
             team[i] = false;
         }
     }
 
     static void cal(){
+        // false : link, true : start
+        start = 0; link = 0;
+
         for(int i=0; i<N; i++){
-            
+            if(team[i]) {
+                for(int j=i+1; j<N; j++) if(team[j]) start += (S[i][j] + S[j][i]);
+            }
+            else {
+                for(int j=i+1; j<N; j++) if(!team[j]) link += (S[i][j] + S[j][i]);
+            }
         }
 
-        Math.min(min, Math.abs(link-start));
+        min = Math.min(min, Math.abs(link-start));
     }
 
     static int parse(String s){
