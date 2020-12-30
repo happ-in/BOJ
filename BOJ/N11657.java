@@ -4,6 +4,7 @@ import java.io.*;
 import java.util.*;
 
 public class N11657 {
+
     static int INF = 5000001;
     static int N, M;
     static Bus[] bus;
