@@ -4,6 +4,7 @@ import java.io.*;
 import java.util.*;
 
 public class N11437 {
+
     static int N, M;
     static ArrayList<ArrayList<Integer>> list;
     static int[] depth, parent;
