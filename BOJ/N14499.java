@@ -85,13 +85,13 @@ public class N14499 {
     static void South(){ dice = new int[]{0, dice[4], dice[1], dice[2], dice[3], dice[5], dice[6]}; }
 
     static int parse(String s) { return Integer.parseInt(s); }
-}
 
-class Pos {
-    int x; int y;
+    static class Pos {
+        int x; int y;
 
-    public Pos(int x, int y){
-        this.x = x;
-        this.y = y;
+        public Pos(int x, int y){
+            this.x = x;
+            this.y = y;
+        }
     }
 }
