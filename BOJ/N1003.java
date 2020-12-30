@@ -1,7 +1,7 @@
 package BOJ.BOJ;
 
 import java.util.*;
- 
+
 public class N1003 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
