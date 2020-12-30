@@ -1,7 +1,6 @@
-package com.company.bakjoon;
+package BOJ.BOJ;
 
 import java.util.*;
-import java.io.*;
 
 public class N1003 {
     public static void main(String[] args) {
