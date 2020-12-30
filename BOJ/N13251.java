@@ -3,6 +3,7 @@ package BOJ.BOJ;
 import java.util.*;
 
 public class N13251 {
+
     static int M, K;
     static int[] arr;
 
