@@ -9,6 +9,7 @@ public class N14500 {
     static int N, M;
     static int[][] board;
     static boolean[][] visited;
+
     static int[] dirX = new int[]{1, -1, 0, 0};
     static int[] dirY = new int[]{0, 0, 1, -1};
 
