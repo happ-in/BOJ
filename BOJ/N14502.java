@@ -3,8 +3,6 @@ package BOJ.BOJ;
 import java.io.*;
 import java.util.*;
 
-
-/** 2sec, 512MB*/
 public class N14502 {
 
     static int N, M;
