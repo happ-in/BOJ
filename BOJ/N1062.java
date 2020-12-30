@@ -4,6 +4,7 @@ import java.io.*;
 import java.util.*;
 
 public class N1062 {
+
     static int N, K;
     static String[] arr;
     static boolean[] alphabet = new boolean[26];
