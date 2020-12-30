@@ -1,4 +1,4 @@
-package com.company.bakjoon;
+package BOJ.BOJ;
 
 import java.util.Scanner;
 
