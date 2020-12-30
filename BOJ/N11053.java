@@ -4,6 +4,7 @@ import java.io.*;
 import java.util.*;
 
 public class N11053 {
+
     static int N;
     static int[] arr;
 
