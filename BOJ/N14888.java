@@ -5,14 +5,8 @@ import java.io.FileInputStream;
 import java.io.InputStreamReader;
 import java.util.*;
 
-/**
- * 2sec, 512MB
- * 입력 : 수의 개수 N(2<= N <=11)
- *       Ai, ..., An (1<= Ai=100
- *       +, -, x, % 개수
- */
-
 public class N14888 {
+
     static int min = Integer.MAX_VALUE;
     static int max = Integer.MIN_VALUE;
     static int N;
