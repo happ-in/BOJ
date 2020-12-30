@@ -3,12 +3,6 @@ package BOJ.BOJ;
 import java.io.*;
 import java.util.*;
 
-/**
- * 2sec, 512MB
- * 축구 모인 총 인원 N명 -> 스타트 vs 링크 (4<= N <=20, 짝수)
- * 스타트, 링크 팀 능력치 차이 최솟값을 출력
- */
-
 public class N14889 {
 
     static int N, start, link;
